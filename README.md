@@ -16,7 +16,7 @@
 <br>
 
 ## 训练模型网络结构说明
-- 详见train/DNN-fixlen-feature.py中的 SimpleChannel 和 SimpleEmbedding，具体如下：
+- 详见train/DNN-fixlen-feature-padding.py中的 SimpleChannel 和 SimpleEmbedding，具体如下：
 
 1. SimpleChannel层:
   - 使用了一个简单的全连接网络（两个Dense层）

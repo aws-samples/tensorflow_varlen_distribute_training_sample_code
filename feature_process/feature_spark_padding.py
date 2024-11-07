@@ -46,10 +46,10 @@ def load_feature_lenth_dict(file_path):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--feature-hash-dict', type=str, default='s3://sagemaker-us-west-2-687912291502/tf_train/features_20240710_041505/part-00000-757be5db-4d45-493f-a7b9-836104157742-c000.json')
-    parser.add_argument('--feature-lenth-dict', type=str, default='s3://sagemaker-us-west-2-687912291502/tf_train/features_20240710_041505/part-00000-f02ce9a7-3057-4b81-b6aa-520954364de1-c000.json')
-    parser.add_argument('--input-data-uri', type=str, default='s3://sagemaker-us-west-2-687912291502/poc/raw3/2024/06/18/')
-    parser.add_argument('--output-data-uri', type=str, default='s3://sagemaker-us-west-2-687912291502/tf_train/features')
+    parser.add_argument('--feature-hash-dict', type=str, default='s3://sagemaker-us-west-2-*******/tf_train/features_20240710_041505/part-00000-757be5db-4d45-493f-a7b9-836104157742-c000.json')
+    parser.add_argument('--feature-lenth-dict', type=str, default='s3://sagemaker-us-west-2-*******/tf_train/features_20240710_041505/part-00000-f02ce9a7-3057-4b81-b6aa-520954364de1-c000.json')
+    parser.add_argument('--input-data-uri', type=str, default='s3://sagemaker-us-west-2-*******/poc/raw3/2024/06/18/')
+    parser.add_argument('--output-data-uri', type=str, default='s3://sagemaker-us-west-2-*******/tf_train/features')
     parser.add_argument('--num-partitions', type=int, default=10)
     parser.add_argument('--padding-lenth', type=int, default=10)
     return parser.parse_args()

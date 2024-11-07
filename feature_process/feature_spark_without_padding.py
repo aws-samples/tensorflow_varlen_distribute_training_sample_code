@@ -18,8 +18,8 @@ import tensorflow as tf
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input-data-uri', type=str, default='s3://sagemaker-us-west-2-687912291502/poc/raw3/2024/06/17/*')
-    parser.add_argument('--output-data-uri', type=str, default='s3://sagemaker-us-west-2-687912291502/tf_train/features')
+    parser.add_argument('--input-data-uri', type=str, default='s3://sagemaker-us-west-2-*******/poc/raw3/2024/06/17/*')
+    parser.add_argument('--output-data-uri', type=str, default='s3://sagemaker-us-west-2-*******/tf_train/features')
     parser.add_argument('--num-partitions', type=int, default=10)
     return parser.parse_args()
 

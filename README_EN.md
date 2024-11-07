@@ -16,7 +16,7 @@ This example is a TensorFlow distributed training sample code developed for vari
 <br>
 
 ## Training Model Network Structure Description
-- See SimpleChannel and SimpleEmbedding in train/DNN-fixlen-feature.py for details, as follows:
+- See SimpleChannel and SimpleEmbedding in train/DNN-fixlen-feature-padding.py for details, as follows:
 
 1. SimpleChannel layer:
 - Uses a simple fully connected network (two Dense layers)
